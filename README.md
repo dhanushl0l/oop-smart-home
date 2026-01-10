@@ -8,26 +8,28 @@ This project simulates a smart home control system using Python. It demonstrates
 
 You need Python 3 installed on your machine.
 
-1. **Create a virtual environment:**
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/dhanushl0l/oop-smart-home.git
+    cd collision-system
+    ```
+2. **Create a virtual environment:**
 ```bash
 python -m venv .venv
 
 ```
-
-2. **Activate the environment:**
+3. **Activate the environment:**
 
 * **Activate the environment (Linux/macOS, bash):**
 ```bash
 source .venv/bin/activate
 
 ```
-
 * **Windows:**
 ```cmd
 .venv\Scripts\activate
 
 ```
-
 ### Instructions to Run
 
 Once the environment is active, simply run the main driver script:
@@ -45,6 +47,16 @@ chmod +x setup.sh
 ./setup.sh
 
 ```
+
+## Testing
+1.  **Install Dependencies**
+    ```bash
+    pip install -r requirements-dev.txt
+    ```
+2.  **Run tests**
+    ```bash
+    pytest -v
+    ```
 
 ### Assumptions & Limitations
 
